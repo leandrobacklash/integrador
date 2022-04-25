@@ -1,0 +1,129 @@
+
+.cont-nav{
+    width: 90%;
+}
+.cont-prin{
+    background-color: #353a40;
+}
+
+.nav-integrador{
+    background-color: #353a40;
+}
+
+.texto-green{
+    color: green !important;
+}
+
+.imagen_principal{
+    background-image: url('../imagenes/ba1.jpg');
+    background-size:cover;
+    height: 63rem;
+    max-height: 1076px;
+}
+.texto-principal{
+    font-size: 1.2rem;
+    color: white;
+}
+.filtro_img{
+    filter: brightness(0.4);
+}
+
+
+.cont-texto-img{
+    position: absolute;
+    top: 0;
+    padding-top: 35%;
+    text-align: right;
+    width: 90%;
+}
+.text-oradores{
+   
+    text-align: center;
+    padding-top: 10px;
+
+   
+}
+.text-oradores.h6{
+    padding-top: 1px;
+}
+
+.card{
+    width: 22rem;
+    border: 1.3px solid lightgrey;
+}
+
+.card a{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    align-items: left;
+}
+
+.row-img1{
+        background-image: url('../imagenes/honolulu.jpg');
+        background-size:cover;
+        height: 400px;
+}
+.row-img2{
+    background-color: #353a40;
+    padding-top: 10px;;
+}
+.text-honolulu{
+    color: white;
+    font-size: 0.9rem;
+}
+.row-contenedor{
+    padding-top: 4
+    0px;
+}
+.text-form{
+    text-align: left;
+    font-size: 0.8rem;
+    color: gray;
+    padding-bottom: 10px;
+}
+.btn-enviar-form{
+    background-color: #96c93e;
+    color: white;
+}
+
+.footer{
+    background: rgb(29,57,71);
+    background: linear-gradient(90deg, rgba(29,57,71,1) 0%, rgba(37,63,77,1) 50%, rgba(72,101,116,1) 100%);
+    height: 150px;
+   
+}
+footer a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+/* PHONES */
+@media only screen and (max-width: 600px) {
+    .imagen_principal {
+        max-height: 600px;
+    }
+    .footer{
+        height: 304px !important;
+    
+    }
+    .cont-text-img{
+        padding-top: 55%;
+    }
+  }
+/* MEDIA */
+  @media only screen and (max-width: 820px) {
+    .imagen_principal {
+        max-height: 500px;
+    }
+    .footer{
+        height: 304px !important;
+    
+    }
+    .cont-text-img{
+        padding-top: 55%;
+    }
+  }
